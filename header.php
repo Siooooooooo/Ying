@@ -13,8 +13,8 @@
         ], '', ' - '); ?><?php $this->options->title(); ?></title>
 
     <!-- 使用url函数转换相关路径 -->
-    <link rel="stylesheet" href="https://cdn.tokcloud.com/file/1/ying/css/main.css">
-    <link rel="stylesheet" href="https://cdn.tokcloud.com/x/1/ying/css/normalize.css">
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('/css/main.css'); ?>">
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('/css/normalize.css'); ?>">
     <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" />
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
     <!-- 通过自有函数输出HTML头部信息 -->
@@ -29,8 +29,8 @@
                     <h2>模板就先这样吧，累了，等我哪天有空在说</h2>
                     <nav class="nav social">
                         <ul class="flat">
-                            <a href="https://tokcloud.com/" title="绿色" target="_blank"><i class="ri-seedling-line"></i></a>
-                            <a href="mailto:x@tokcloud.com" title="E-mail" target="_blank"><i class="ri-mail-line"></i></a>
+                            <a href="https://osgz.com/" title="绿色" target="_blank"><i class="ri-seedling-line"></i></a>
+                            <a href="mailto:x@osgz.com" title="E-mail" target="_blank"><i class="ri-mail-line"></i></a>
                         </ul>
                     </nav>
                 </div>
