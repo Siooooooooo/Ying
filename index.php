@@ -2,12 +2,12 @@
 /**
  * 简约而不简单
  * 
- * 致谢：<a href="https://xiaojunkang.com/">肖同学</a> · <a href="https://200011.net/">油油</a> 
+ * 致谢：<a href="https://xiaojunkang.com/">肖同学</a> · <a href="https://200011.net/">油油</a> · 测试服务器赞助 <a href="https://osgz.com/">偶数感知</a> 
  *
  * @package Ying
- * @author TOKCloud
+ * @author 颖宝
  * @version 1.0
- * @link https://tokcloud.com
+ * @link https://github.com/OSGZ/Ying
  */
 
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
