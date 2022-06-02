@@ -4,7 +4,7 @@
  * 
  * @package Ying
  * @author 颖宝
- * @version 1.0
+ * @version 1.1
  * @link https://github.com/OSGZ/Ying
  */
 
