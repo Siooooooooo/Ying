@@ -13,6 +13,5 @@
         </div>
     </div>
     <script src="<?php $this->options->themeUrl('/js/iconfont.js'); ?>"></script>
-    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.8/lightgallery.umd.min.js"></script>
 </body>
 </html>
