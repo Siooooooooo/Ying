@@ -13,7 +13,7 @@
         </h1>
         <div class="meta">
                     <span><?php $this->date('F j, Y'); ?></span>                 
-                    <?php _e('作者: '); ?><a itemprop="name" href="<?php $this->author->permalink(); ?>"rel="author"><?php $this->author(); ?></a></li>                      
+                    <?php _e('作者: '); ?><?php $this->author(); ?>                      
                     <?php _e('分类: '); ?><?php $this->category(','); ?>
                     </span></ul>
         </div>  

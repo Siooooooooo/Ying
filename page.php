@@ -11,11 +11,6 @@
         <h1 class="post-title" itemprop="name headline">
             <?php $this->title() ?>
         </h1>
-        <div class="meta">
-                <span><?php $this->date('F j, Y'); ?></span>                 
-                <?php _e('作者: '); ?><a itemprop="name" href="<?php $this->author->permalink(); ?>" rel="author"><?php $this->author(); ?></a></li></span>
-        </ul>
-        </div>  
     <div class="post-content" itemprop="articleBody">
     <?php $this->content(); ?>
 

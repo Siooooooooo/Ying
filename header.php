@@ -26,11 +26,11 @@
             <div class="header">
             <img src="<?php $this->options->logoUrl() ?>" width="80" height="80" alt="<?php $this->options->title() ?>"/>
                 <div class="site-description">
-                    <h2>模板就先这样吧，累了，等我哪天有空在说</h2>
+                    <h2><span><?php $this->options->yiyan(); ?></span></h2>
                     <nav class="nav social">
                         <ul class="flat">
-                            <a href="https://osgz.com/" title="绿色" target="_blank"><i class="ri-seedling-line"></i></a>
                             <a href="mailto:x@osgz.com" title="E-mail" target="_blank"><i class="ri-mail-line"></i></a>
+                             <a href="/feed" title="rss" target="_blank"><i class="ri-rss-fill"></i></a>
                         </ul>
                     </nav>
                 </div>
