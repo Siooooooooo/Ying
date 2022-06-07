@@ -29,8 +29,8 @@
                     <h2><span><?php $this->options->yiyan(); ?></span></h2>
                     <nav class="nav social">
                         <ul class="flat">
-                            <a href="mailto:x@osgz.com" title="E-mail" target="_blank"><i class="ri-mail-line"></i></a>
-                             <a href="/feed" title="rss" target="_blank"><i class="ri-rss-fill"></i></a>
+                            <a href="https://jihulab.com/osgz" title="E-mail" target="_blank"><i class="ri-gitlab-line"></i></a>
+                            <a href="/feed" title="rss" target="_blank"><i class="ri-rss-line"></i></a>
                         </ul>
                     </nav>
                 </div>
