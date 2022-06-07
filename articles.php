@@ -10,7 +10,7 @@ $this->need('header.php'); ?>
 <ul class="flat">
 <li class="active"><a href="<?php $this->options->siteUrl(); ?>">首页</a></li>
     <?php $this->widget('Widget_Contents_Page_List')
-               ->parse('<li class="active"><a href="{permalink}">{title}</a></li>'); ?></ul>
+               ->parse('<li class="active"><a href="{permalink}">{title}</a></li> '); ?></ul>
                 </nav>
             </div>
         <h1 class="post-title" itemprop="name headline">
@@ -23,7 +23,7 @@ $this->need('header.php'); ?>
                 
                     <li class="archives-item">
                         <div class="archives-item-content">
-                            <h4 class="archives-item-title"><a href="<?php $archives->permalink(); ?>"><?php $archives->date(); ?></a></h4>
+                            <h3 class="archives-item-title"><a href="<?php $archives->permalink(); ?>"><?php $archives->date(); ?></a></h3>
                             <?php
                             $year = $archives->year;
                             $month = $archives->month;
@@ -51,4 +51,3 @@ $this->need('header.php'); ?>
 </div>
 </body>
 </html>
-

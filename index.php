@@ -16,7 +16,7 @@ $this->need('header.php');
 <ul class="flat">
 <li class="active"><a href="<?php $this->options->siteUrl(); ?>">首页</a></li>
     <?php $this->widget('Widget_Contents_Page_List')
-               ->parse('<li class="active"><a href="{permalink}">{title}</a></li>'); ?></ul>
+               ->parse('<li class="active"><a href="{permalink}">{title}</a></li> '); ?></ul>
                 </nav>
             </div>
             <article>              
