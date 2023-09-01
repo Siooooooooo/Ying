@@ -16,7 +16,7 @@
         <form method="post">
             <p><input type="text" name="s" class="text" autofocus/> <button type="submit" class="submit"><?php _e('搜索'); ?></button></p>
         </form>
-        <img src="https://www.osgz.com/usr/uploads/2022/06/968499880.jpg" width="100%">
+        <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1688517018566/f5f10865-4b74-46bd-a2d3-8b6da86b31c3.jpeg" width="100%">
     </div>
 
 <?php $this->need('footer.php'); ?>
