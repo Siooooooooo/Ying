@@ -1,6 +1,6 @@
 # Ying
 
-Typecho简约博客主题 - Ying 1.0 （懒鬼 随缘更）
+Typecho简约博客主题 - Ying 1.0 （已停更）
 
 最新版本：1.0
 
