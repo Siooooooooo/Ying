@@ -5,7 +5,7 @@
  * @package Ying
  * @author 颖宝
  * @version 1.1
- * @link https://github.com/OSGZ/Ying
+ * @link https://github.com/Siooooooooo/Ying/
  */
 
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
